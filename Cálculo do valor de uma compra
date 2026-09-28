@@ -1,0 +1,20 @@
+
+#include <iostream>
+using namespace std;
+
+
+int main(){
+
+
+   float preço,valort;
+   int quant;
+
+
+   cout << "Qual o valor do produto ? ";
+   cin >> preço;
+   cout << "Qual a quantidade? ";
+   cin>> quant;
+   valort= preço*quant;
+   cout<<valort;
+   return 0;
+}
